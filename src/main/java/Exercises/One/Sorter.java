@@ -3,5 +3,5 @@ package Exercises.One;
 import java.util.List;
 
 public interface Sorter {
-    public List<Student> sort(List<Student> list);
+    public List<Student> sort(List<Student> students);
 }

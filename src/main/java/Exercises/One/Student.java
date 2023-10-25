@@ -7,7 +7,7 @@
 package Exercises.One;
 
 public class Student {
-    int matriculationNumber;
+    Integer matriculationNumber;
     String name;
 
     public Student(int matNumber, String studentName){
