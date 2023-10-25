@@ -85,3 +85,5 @@ nb-configuration.xml
 *.lock
 /.gradle/
 /.idea/
+.*
+!/.gitignore
