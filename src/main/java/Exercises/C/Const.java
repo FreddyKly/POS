@@ -19,7 +19,7 @@ public class Const implements ArithmeticExpr{
         return Integer.toString(value);
     }
 
-    public Const eval() {
+    public Const eval(Environment env) {
         return this;
     }
 }

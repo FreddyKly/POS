@@ -8,7 +8,7 @@ public class Neg implements ArithmeticExpr {
     }
 
     @Override
-    public Const eval() {
-        return new Const(-1 * num.eval().getValue());
+    public Const eval(Environment env) {
+        return new Const(-1 * num.eval(env).getValue());
     }
 }

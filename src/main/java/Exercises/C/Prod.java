@@ -9,7 +9,7 @@ public class Prod implements ArithmeticExpr{
         right = r;
     }
 
-    public Const eval() {
-        return new Const((left.eval().getValue()) * (right.eval().getValue()));
+    public Const eval(Environment env) {
+        return new Const((left.eval(env).getValue()) * (right.eval(env).getValue()));
     }
 }
